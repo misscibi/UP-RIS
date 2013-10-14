@@ -81,8 +81,10 @@
 	</div>
 </div>
 
-<!-- Title -->
+
+<!--Container-->
 <section class="container">
+	<!-- Title -->
 	<div class="row">
 		<div class="col-md-12">
 			<h3>
@@ -92,7 +94,7 @@
 		</div>
 	</div>
 	
-<!-- Secondary Navbar -->
+	<!-- Secondary Navbar -->
 	<div class="row">
 		<div class="col-md-12">
 			<div class="navbar navbar-simple navbar-static-top hidden-xs" role="navigation">
@@ -215,18 +217,16 @@
 		
 			<!-- Search form/button-->
 			<div>
-				<form class="form-horizontal" role="search">
-					<div class="form-group">
-						<div class="col-lg-9">
-							<input type="text" class="form-control" placeholder="Search">
-						</div>
-						<div class="col-lg-3">
-							<button type="submit" class="btn btn-default btn-block">Submit</button>
-						</div>
-					</div>
+				<form class="form-search">
+				  <div class="input-group">
+					  <input type="text" class="form-control" placeholder="Search">
+					  <span class="input-group-btn">
+						  <button type="submit" class="btn btn-default">Search</button>
+					  </span>
+				  </div>
 				</form>
 			</div>
-			
+		
 			<br>
 			
 			<!-- recent news-->
@@ -246,16 +246,48 @@
 		</div>
 		<!-- end of 2nd column-->
 	</div>
-	
-	
-
 </section>
+<!--End of container-->
 
+<!--footer-->
+<footer>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Flickr Photos</h3>
+        </div>
+        <div class="col-md-4">
+            <h3>Last Tweet</h3>
+        </div>
+        <div class="col-md-4">
+            <h3>Contact Form</h3>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputName" placeholder="Name" name="inputName">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputEmail" placeholder="Email" name="inputEmail">
+                </div>
+                <div class="form-group">
+                    <textarea rows="3" class="form-control" id="inputMessage" placeholder="Message" name="inputMessage"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-success footer-button" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+</footer>
 
-
-
-
-
+<!--footer menu-->
+<section id="footer-menu">
+    <div class="container">
+        <div class="row">
+            <p class="col-md-12"><span>&copy; Copyright 2013, SiArEs | All Rights Reserved</span></p>
+        </div>
+    </div>
+</section>
 
 
 
@@ -267,9 +299,7 @@
   <!--! KICKSTRAP FOOTER -->
    <div class="hidden"><h1>No Stylesheet Loaded</h1><p><strong>Could not load Kickstrap.</strong>There are <a href="http://getkickstrap.com/docs/1.2/troubleshooting/#lessjs-errors">several common reasons for this error.</a></p></div>
   <div id="push"></div></div> <!-- sf-wrapper -->
-  <footer class="container" id="footer">
-    <a href="http://getkickstrap.com"><img src="Kickstrap/img/badge.png" /></a>
-  </footer>
+
   <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
   <script>window.jQuery || document.write('<script src="Kickstrap/js/jquery-1.10.2.min.js"><\/script>');</script>
   <!-- Kickstrap CDN thanks to our friends at netDNA.com -->
