@@ -61,15 +61,15 @@
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li>
-					<form class="navbar-form navbar-left" role="search">
+					<form class="navbar-form navbar-right" role="search">
 						<div class="form-group">
 						<input type="text" class="form-control" placeholder="Search">
 						</div>
-						<button type="submit" class="btn btn-default"><i class="icon-search icon-large"></i></button>
+						<button type="submit" class="btn btn-default"><i class="icon-search"></i></button>
 					</form>
 				</li>
-				<li><a href="#aboutus"><i class="icon-info-sign icon-large"></i></a></li>
-				<li><a href="#contactus"><i class="icon-phone-sign icon-large"></i></a></li>
+				<li><a href="#aboutus"><i class="icon-info-sign"></i></a></li>
+				<li><a href="#contactus"><i class="icon-phone-sign"></i></a></li>
 			</ul>
 			</div>
 	</div>
