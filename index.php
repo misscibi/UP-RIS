@@ -59,23 +59,17 @@
 				</ul>
 				</li>
 			</ul>
-			<form class="navbar-form navbar-left" role="search">
-				<div class="form-group">
-				<input type="text" class="form-control" placeholder="Search">
-				</div>
-				<button type="submit" class="btn btn-default">Submit</button>
-			</form>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Link</a></li>
-				<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-				<ul class="dropdown-menu">
-					<li><a href="#">Action</a></li>
-					<li><a href="#">Another action</a></li>
-					<li><a href="#">Something else here</a></li>
-					<li><a href="#">Separated link</a></li>
-				</ul>
+				<li>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default"><i class="icon-search icon-large"></i></button>
+					</form>
 				</li>
+				<li><a href="#aboutus"><i class="icon-info-sign icon-large"></i></a></li>
+				<li><a href="#contactus"><i class="icon-phone-sign icon-large"></i></a></li>
 			</ul>
 			</div>
 	</div>
@@ -87,9 +81,8 @@
 	<!-- Title -->
 	<div class="row">
 		<div class="col-md-12">
-			<h3>
-				University of the Philippines - Research Information System
-			</h3>
+			<br>
+			<img src="Kickstrap/img/yab.png"></img>
 			<br>
 		</div>
 	</div>
@@ -111,10 +104,11 @@
 						<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav">
 							<li><a href="#">Home</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
+							<li><a href="#">Downloads</a></li>
+							<li><a href="#">Grants</a></li>
+							<li><a href="#">Adviser</a></li>
+							<li><a href="#">Reviewer</a></li>
+							<li><a href="#">Researcher</a></li>
 						</ul>
 						
 						</div>
@@ -207,8 +201,11 @@
 					</div>
 				  </div>
 				  <div class="form-group">
-					<div class="col-lg-offset-3 col-lg-6">
+					<div class="col-lg-6">
 					  <button type="submit" class="btn btn-sm btn-default btn-block">Sign in</button>
+					</div>
+					<div class="col-lg-6">
+					  <button type="submit" class="btn btn-sm btn-default btn-block">Register</button>
 					</div>
 				  </div>
 				</form>
@@ -221,7 +218,7 @@
 				  <div class="input-group">
 					  <input type="text" class="form-control" placeholder="Search">
 					  <span class="input-group-btn">
-						  <button type="submit" class="btn btn-default">Search</button>
+						  <button type="submit" class="btn btn-default"><i class="icon-search icon-large"></i> </button>
 					  </span>
 				  </div>
 				</form>
@@ -237,7 +234,7 @@
 				  <li><a href="#comments" data-toggle="tab">Comments</a></li>
 				</ul>
 				<div class="tab-content">
-				  <div class="tab-pane active" id="recent">H... Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. </div>
+				  <div class="tab-pane active" id="recent"><span class="glyphicon glyphicon-search"></span>H... Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. </div>
 				  <div class="tab-pane" id="archives">P...</div>
 				  <div class="tab-pane" id="comments">M...</div>
 				</div>
@@ -262,16 +259,16 @@
         <div class="col-md-4">
             <h3>Contact Form</h3>
             <form class="form-horizontal" role="form">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="inputName" placeholder="Name" name="inputName">
+                <div class="form-group col-lg-12">
+                    <input type="text" class="form-control input-sm" id="inputName" placeholder="Name" name="inputName">
                 </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="inputEmail" placeholder="Email" name="inputEmail">
+                <div class="form-group col-lg-12">
+                    <input type="text" class="form-control input-sm" id="inputEmail" placeholder="Email" name="inputEmail">
                 </div>
-                <div class="form-group">
-                    <textarea rows="3" class="form-control" id="inputMessage" placeholder="Message" name="inputMessage"></textarea>
+                <div class="form-group col-lg-12">
+                    <textarea rows="3" class="form-control input-sm" id="inputMessage" placeholder="Message" name="inputMessage"></textarea>
                 </div>
-                <div class="form-group">
+                <div class="form-group col-lg-12">
                     <input type="submit" class="btn btn-success footer-button" value="Submit">
                 </div>
             </form>
@@ -284,7 +281,7 @@
 <section id="footer-menu">
     <div class="container">
         <div class="row">
-            <p class="col-md-12"><span>&copy; Copyright 2013, SiArEs | All Rights Reserved</span></p>
+            <p class="col-md-12"><span>&copy; Designed by the RIS Group - UP ITDC</span></p>
         </div>
     </div>
 </section>
