@@ -168,6 +168,20 @@
 					</div>
 				</div> <a data-slide="prev" href="#carousel-247961" class="left carousel-control">‹</a> <a data-slide="next" href="#carousel-247961" class="right carousel-control">›</a>
 			</div>
+			
+			<div>
+			<h3>Annoucements</h3>
+			<p>June 3, 2013 11:00 PM Monday - The 2013 senatorial election is a watershed in the history of the Philippines modern politics. This broad and hasty conclusion must be a running thought among its observers, however premature it may seem, although it will likely be validated after considerable hindsight.
+</p><p>This election is as much a significant transition in the post-Arroyo era as the 1987 senatorial election was in the post-Marcos era. The first truly electoral exercise after the dictatorship, the 1987 senatorial race led to a resounding victory for the first Aquino presidency.
+</p><p>The circumstances then and now are of course vastly different. But these two events, more than a generation apart, are scenes in a long and still-ongoing dramedythe morphing of Philippine politics into its present form as a coda of Philippine entertainment.
+</p><p>Joseph Estradas placing 17th in the 1987 senatorial race (then a contest for 24 seats) is a modest showing from our perspective today. Yet it surprised, or perhaps alarmed, his elitist skeptics at the time, and prompted nothing less than Estradas courtesy call with President Cory Aquino.
+</p><p>His victory was a crack at the high wall of national politics30 years after Rogelio de la Rosas election to the Senate in 1957and it showed the way for his peers in showbiz to literally crowd the political arena, beginning with the Ramos presidency when Estrada became vice president.
+</p><p>Yet this tide from showbiz, a distinct phenomenon of post-Marcos democracy, has been a cycle of ebb and risecolliding with that other current in the post-Marcos era, the momentum of civic vigilance that is a continuing legacy of the impassioned anti-Marcos protest movement.
+</p><p>This clash in the body politic would find its most volatile expression in Edsa Dos, the movement that aborted Estradas presidency, and in the riotous aftermath by Estradas masses that would be acknowledged, if grudgingly by some, as Edsa Tres.
+</p><p>In retrospect, these events played out in true showbiz fashion, as melodrama or teleserye in the widescreen of politics. This episode also changed, or reshaped, the electorateincluding the masses, to be sure, but more so the conscientious if pedicured class.
+</p><p>Why their civic vigilance failed to unseat Gloria Macapagal-Arroyo much sooner than her decade-long (as they would say) misrule may be attributed to political fatigue, after they were grossly bummed out by the impunity of said rule and the betrayal of Edsa Dos.
+</p><p>Its not that this and other sectors didnt try to dethrone the most hated president after Ferdinand Marcos. The moment of collective redress finally came in 2010, with the election of Benigno Aquino III a resounding voice spiting GMA.
+			</p></div>
 
 		</div>
 		<!-- End of 1st column-->
@@ -247,44 +261,32 @@
 <!--End of container-->
 
 <!--footer-->
-<footer>
-    <div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <h3>Flickr Photos</h3>
-        </div>
-        <div class="col-md-4">
-            <h3>Last Tweet</h3>
-        </div>
-        <div class="col-md-4">
-            <h3>Contact Form</h3>
-            <form class="form-horizontal" role="form">
-                <div class="form-group col-lg-12">
-                    <input type="text" class="form-control input-sm" id="inputName" placeholder="Name" name="inputName">
-                </div>
-                <div class="form-group col-lg-12">
-                    <input type="text" class="form-control input-sm" id="inputEmail" placeholder="Email" name="inputEmail">
-                </div>
-                <div class="form-group col-lg-12">
-                    <textarea rows="3" class="form-control input-sm" id="inputMessage" placeholder="Message" name="inputMessage"></textarea>
-                </div>
-                <div class="form-group col-lg-12">
-                    <input type="submit" class="btn btn-success footer-button" value="Submit">
-                </div>
-            </form>
-        </div>
-    </div>
-    </div>
-</footer>
-
-<!--footer menu-->
-<section id="footer-menu">
-    <div class="container">
-        <div class="row">
-            <p class="col-md-12"><span>&copy; Designed by the RIS Group - UP ITDC</span></p>
-        </div>
-    </div>
-</section>
+<div id="footermainPan">
+    <div id="footerPan">
+    <ul>
+	<li><a href="index.php">Home</a>| </li>
+	<li><a href="aboutus.php">About us</a>| </li>
+	<li><a href="support.php">Downloads</a>| </li>
+	<li><a href="#">Books</a>| </li>
+	<li><a href="http://crs.upv.edu.ph">University</a>| </li>
+	<li><a href="#">Blog</a>| </li>
+	<li><a href="#">Ideas</a>| </li>
+	<li><a href="contactus.php">Contact us</a> </li>
+    </ul>
+	<p class="copyright">University of the Philippines-Research Information System. All rights reserved.</p>
+	<ul class="yabsfooter">
+  	<li>designed by:</li>
+	<li>The RIS Group - UP ITDC</li>
+    </ul>
+    <script>
+function viewthesource(){
+window.location="view-source:"+window.location
+}
+</script>
+    <div id="footerPanhtml"><a href="javascript:viewthesource()">HTML</a></div>
+    <div id="footerPancss"><a href="style.css">css</a></div>
+</div>
+</div>
 
 
 
