@@ -45,10 +45,6 @@
 		  </div>
 
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
-			<ul class="nav navbar-nav">
-				<li><a href="#">Annoucements</a></li>
-				<li><a href="#">Accounts</a></li>
-			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li>
 					<form class="navbar-form navbar-right" role="search">
@@ -61,7 +57,7 @@
 				<li><a href="#aboutus"><i class="icon-info-sign"></i></a></li>
 				<li><a href="#contactus"><i class="icon-phone-sign"></i></a></li>
 				<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin <b class="caret"></b></a>
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Adviser <b class="caret"></b></a>
 				<ul class="dropdown-menu">
 					<li><a href="#">Inbox</a></li>
 					<li><a href="#">My Page</a></li>
@@ -121,22 +117,22 @@
 	
 		<!--1st column-->
 		<div class="col-md-8">
-				  
-		<div>
-			<span style="text-align:center;"><h4> Approve newly made accounts</h4></span>
-			<div id="tabs" style="text-align:center">
-			  <ul class="nav nav-tabs">
-				<li class="active"><a href="#tabs-1" data-toggle="tab">Researchers</a></li>
-				<li><a href="#tabs-2" data-toggle="tab">Reviewers</a></li>
-				<li><a href="#tabs-3" data-toggle="tab">Advisers</a></li>  
-			  </ul>
+		  
+		  <div id="tabs">
+		  <ul class="nav nav-pills">
+			<li class="active"><a href="#tabs-1" data-toggle="tab">New</a></li>
+			<li><a href="#tabs-2" data-toggle="tab">Pending</a></li>
+			<li><a href="#tabs-3" data-toggle="tab">Approved</a></li>
+			<li><a href="#tabs-4" data-toggle="tab">Declined</a></li>
+		  </ul>
+
 			  <div class="tab-content">
-			  <div class="tab-pane active" id="tabs-1"><?admin_class::view_accounts('userinfo');?></div>
-			  <div class="tab-pane" id="tabs-2"><?admin_class::view_accounts('reviewerinfo');?></div> 
-			  <div class="tab-pane" id="tabs-3"><?admin_class::view_accounts('adviserinfo');?></div>
-			  </div>
-			</div>  
-      </div>			  
+				<div class="tab-pane active" id="tabs-1"> <table class="table table-stripped" border="1"><tr><th>ID</th><th>Title</th><th>Date Submitted</th><th>Status</th><th>Approve</th></tr> <tr> <td>8</td><td><a href="adviserview.php?pid=8">pedophilia</a></td><td>Thursday, May 16, 2013</td><td>new</td><td><a href="approveproposal.php?pid=8">Approve</a></td></tr> <tr> <td>9</td><td><a href="adviserview.php?pid=9">sdgakdbh</a></td><td>Thursday, May 16, 2013</td><td>new</td><td><a href="approveproposal.php?pid=9">Approve</a></td></tr> <tr> <td>11</td><td><a href="adviserview.php?pid=11">asdhgjsg</a></td><td>Thursday, May 16, 2013</td><td>new</td><td><a href="approveproposal.php?pid=11">Approve</a></td></tr> <tr> <td>13</td><td><a href="adviserview.php?pid=13">trirlasda</a></td><td>Thursday, May 16, 2013</td><td>new</td><td><a href="approveproposal.php?pid=13">Approve</a></td></tr> <tr> <td>14</td><td><a href="adviserview.php?pid=14">trytryrtrytryt</a></td><td>Thursday, May 16, 2013</td><td>new</td><td><a href="approveproposal.php?pid=14">Approve</a></td></tr> <tr> <td>15</td><td><a href="adviserview.php?pid=15">bla bla bla</a></td><td>Thursday, May 16, 2013</td><td>new</td><td><a href="approveproposal.php?pid=15">Approve</a></td></tr> <tr> <td>20</td><td><a href="adviserview.php?pid=20">World Pe</a></td><td>Friday, Jul 19, 2013</td><td>new</td><td><a href="approveproposal.php?pid=20">Approve</a></td></tr></table></div>
+				<div class="tab-pane" id="tabs-2"><table class="table table-stripped" border="1"><tr><th>ID</th><th>Title</th><th>Date Submitted</th><th>Status</th><th>Approve</th></tr> <tr> <td>2</td><td><a href="adviserview.php?pid=2">mouse physics</a></td><td>Wednesday, May 01, 2013</td><td>pending</td><td><a href="approveproposal.php?pid=2">Approve</a></td></tr> <tr> <td>3</td><td><a href="adviserview.php?pid=3">thermodynamics</a></td><td>Wednesday, May 15, 2013</td><td>pending</td><td><a href="approveproposal.php?pid=3">Approve</a></td></tr> <tr> <td>4</td><td><a href="adviserview.php?pid=4">Information Technology</a></td><td>Wednesday, May 15, 2013</td><td>pending</td><td><a href="approveproposal.php?pid=4">Approve</a></td></tr> <tr> <td>5</td><td><a href="adviserview.php?pid=5">cyber crime</a></td><td>Wednesday, May 15, 2013</td><td>pending</td><td><a href="approveproposal.php?pid=5">Approve</a></td></tr> <tr> <td>6</td><td><a href="adviserview.php?pid=6">avvhadgaj</a></td><td>Wednesday, May 15, 2013</td><td>pending</td><td><a href="approveproposal.php?pid=6">Approve</a></td></tr> <tr> <td>21</td><td><a href="adviserview.php?pid=21">mobile app</a></td><td>Monday, Aug 05, 2013</td><td>pending</td><td><a href="approveproposal.php?pid=21">Approve</a></td></tr> <tr> <td>22</td><td><a href="adviserview.php?pid=22">Mobile application</a></td><td>Monday, Aug 05, 2013</td><td>pending</td><td><a href="approveproposal.php?pid=22">Approve</a></td></tr></table></div> 
+				<div class="tab-pane" id="tabs-3"><table class="table table-stripped" border="1"><tr><th>ID</th><th>Title</th><th>Date Submitted</th><th>Status</th></tr> <tr> <td>1</td><td><a href="adviserview.php?pid=1">computer biotechnology</a></td><td>Tuesday, May 14, 2013</td><td>approved</td></tr> <tr> <td>7</td><td><a href="adviserview.php?pid=7">robotics</a></td><td>Thursday, May 16, 2013</td><td>approved</td></tr> <tr> <td>10</td><td><a href="adviserview.php?pid=10">asdhgjsg</a></td><td>Thursday, May 16, 2013</td><td>approved</td></tr> <tr> <td>12</td><td><a href="adviserview.php?pid=12">object trial</a></td><td>Thursday, May 16, 2013</td><td>approved</td></tr> <tr> <td>17</td><td><a href="adviserview.php?pid=17">IT shit</a></td><td>Tuesday, May 21, 2013</td><td>approved</td></tr> <tr> <td>18</td><td><a href="adviserview.php?pid=18">bla bla</a></td><td>Wednesday, May 22, 2013</td><td>approved</td></tr> <tr> <td>19</td><td><a href="adviserview.php?pid=19">latest</a></td><td>Wednesday, May 22, 2013</td><td>approved</td></tr></table></div>
+				<div class="tab-pane" id="tabs-4"><table class="table table-stripped" border="1"><tr><th>ID</th><th>Title</th><th>Date Submitted</th><th>Status</th></tr> <tr> <td>16</td><td><a href="adviserview.php?pid=16">asdfad</a></td><td>Thursday, May 16, 2013</td><td>declined</td></tr></table></div>
+			</div>
+		  </div>			  
 			
 
 		</div>
@@ -144,23 +140,6 @@
 		
 		<!-- 2nd column-->
 		<div class="col-md-4">
-		
-			<!-- Announcements form-->
-			<div>
-				<p>Post an announcement</p>
-				<div style="margin-left:20px;">
-				  <form method="post" action="adminindex.php">
-					<input name="text" class="form-control" placeholder="header.." required="required"/> <p></p>
-					  <div id="agreement2">
-						<textarea class="form-control" rows="5" name="content" required="required" placeholder="write an announcement.."></textarea><br />
-						<button type="submit" class="btn btn-default col-md-12" name="Submit" value="Post">Post</button>
-					  </div>
-				  </form>
-				</div>      
-				<script>$(function() {$( "#tabs" ).tabs();});</script>
-				<br>
-				<br>
-			  </div>
 		
 			<!-- Search form/button-->
 			<div>
